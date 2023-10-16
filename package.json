@@ -1,21 +1,29 @@
 {
   "name": "teegram-bot",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanhes207/telegram_delay_bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-telegram-bot-api": "0.63.0"
+  "bugs": {
+    "url": "https://github.com/sanhes207/telegram_delay_bot/issues"
   },
-  "description": "",
+  "homepage": "https://github.com/sanhes207/telegram_delay_bot#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "telegraf": "^4.14.0"
+  },
   "devDependencies": {
-    "@types/node-telegram-bot-api": "^0.61.8",
-    "nodemon": "^3.0.1"
+    "config": "^3.3.9"
   }
 }
