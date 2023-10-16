@@ -9,3 +9,5 @@ const bot = new Telegraf(config.get('TELEGRAM_BOT_TOKEN'), {
 bot.start((ctx) => {
     ctx.reply('Вас приветствует мой бот, надеюсь работа будет продуктивной')
 })
+
+bot.launch();
